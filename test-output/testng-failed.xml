@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restfulbooker.CreateAuthToken">
+      <class name="restfulbooker.EndToEndAPI">
         <methods>
-          <include name="postCreateToken"/>
+          <include name="getBookingIdDetail"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- restfulbooker.CreateAuthToken -->
+      </class> <!-- restfulbooker.EndToEndAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
